@@ -16,7 +16,7 @@ public class Application {
 
 		SpringApplication.run(Application.class);
 	}
-	@Bean
+	/*@Bean
 	public CommandLineRunner demo(PersonRepository repository){
 		return (args) -> {
 			//save a couple of persons
@@ -34,11 +34,11 @@ public class Application {
 			log.info("");
 			
 			//fetch an individual person by ID
-			/*Person person = repository.findOne(1L);
+			Person person = repository.findOne(1L);
 			log.info("Person found with findOne(1L)");
 			log.info("-------------------------------");
 			log.info(person.toString());
-			log.info("");*/
+			log.info("");
 			
 			//fetch persons by last name
 			log.info("Person found with findByLastName('Bauer'");
@@ -48,5 +48,5 @@ public class Application {
 			}
 			log.info("");
 		};
-	}
+	}*/
 }
