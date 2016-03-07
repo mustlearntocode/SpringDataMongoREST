@@ -11,7 +11,12 @@
 #####Don't forget that this project is using mongodb, you before you run maven, you need to open mongodb using command: mongod
 
 ##Way to test:
-type the following url into the address bar
+Type the following url into the address bar
+#####0.`HATEOAS`
+http://localhost:8085/people
+
+`HATEOAS` stands for Hypermedia as the engine of application state.
+It returns urls(s) as one single entry point.
 #####1.Find people in Person class whose last name is Bauer
 http://localhost:8085/people/search/findByLastName?name=Bauer
 #####2.Find people in Person class whose first name is Jack
