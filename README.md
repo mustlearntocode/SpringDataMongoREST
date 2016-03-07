@@ -11,7 +11,7 @@ How to run?
 Don't forget that this project is using mongodb, you before you run maven, you need to open mongodb using command: mongod
 
 Way to test:
-type following url into the address bar
+type the following url into the address bar
 
 http://localhost:8085/people/search/findByLastName?name=Bauer
 
