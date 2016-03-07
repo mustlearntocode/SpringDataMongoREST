@@ -12,7 +12,9 @@ Don't forget that this project is using mongodb, you before you run maven, you n
 
 Way to test:
 type the following url into the address bar
-
+1.Find people in Person class whose last name is Bauer
 http://localhost:8085/people/search/findByLastName?name=Bauer
+2.Find people in Person class whose first name is Jack
+http://localhost:8085/people/search/findByFirstName?name=Jack
 
 
