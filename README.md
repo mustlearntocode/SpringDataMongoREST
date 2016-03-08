@@ -16,7 +16,7 @@ Type the following url into the address bar
 http://localhost:8085/people
 
 `HATEOAS` stands for Hypermedia as the engine of application state.
-It returns urls(s) as one single entry point.
+It returns url(s) as one single entry point.
 #####1.Find people in Person class whose last name is Bauer
 http://localhost:8085/people/search/findByLastName?name=Bauer
 #####2.Find people in Person class whose first name is Jack
